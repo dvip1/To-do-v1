@@ -1,7 +1,8 @@
 Hi there! My name is Dvip Patel and I am a full stack developer.
 I made this app using expressJS, EJS & CSS.
 <br> 
-How Do I install it?
+<br>
+This is how you'll install it.
 ### Step 1:
 Download NodeJS, git if you haven't already.
 ### Step 2:
