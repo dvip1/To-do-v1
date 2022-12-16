@@ -11,7 +11,7 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 const port = 3000;
 app.get('/', (req, res) => {
-    let day= date;
+    let day= date();
     res.render("list", { TaskType: day, NewItem: items, dir: '/' });
 });
 app.post('/', (req, res) => {
