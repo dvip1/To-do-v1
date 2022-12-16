@@ -1,5 +1,5 @@
 Hi there! My name is Dvip Patel and I am a full stack developer.
-I made this app using expressJS, ejs & CSS.
+I made this app using expressJS, EJS & CSS.
 <br> 
 How Do I install it?
 ### Step 1:
