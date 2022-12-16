@@ -1,6 +1,7 @@
 Hi there! My name is Dvip Patel and I am a full stack developer.
-I made this app using expressJS & ejs. 
-How Do I use it ?
+I made this app using expressJS & ejs.
+<br> 
+How Do I install it?
 ### Step 1:
 Download NodeJS, git if you haven't already.
 ### Step 2:
