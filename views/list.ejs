@@ -10,19 +10,28 @@
 </head>
 
 <body>
-    <h1>
-        <%= kindOfDay%>
-    </h1>
-    <form action="/" method="post">
-        <label for="new_item">Enter your task: </label>
-        <input type="text" id="new_item" name="new_item">
-        <input type="submit" value="add">
-    </form>
-    <ul>
-        <% for(var i=0; i<NewItem.length;i++)  {%>
-            <li> <%= NewItem[i] %>  </li>
-        <% } %> 
-    </ul>
+    <div class="box" id="heading">
+        <h1>
+            <%= kindOfDay%>
+        </h1>
+    </div>
+
+    <div class="box">
+
+        <% for(var i=0; i<NewItem.length;i++) {%>
+            <div class="item">
+                <input type="checkbox">
+                <p>
+                    <%= NewItem[i] %>
+                </p>
+            </div>
+            <% } %>
+
+            <form action="/" method="post" class="item">
+                <input type="text" id="new_item" name="new_item" placeholder="new item" autocomplete="off">
+                <button type="submit" >+</button>
+            </form>
+    </div>
 </body>
 
 </html>
